@@ -28,3 +28,7 @@ soundCloudToggle.addEventListener("click", (e)=>{
         soundCloud.style.display = "block";
     }
 });
+
+// redirection immédiate vers le déploiement vercel pour que le client puisse utiliser l'ancien url
+// window.location.href = "https://piano-jet.vercel.app/";
+ 

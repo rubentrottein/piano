@@ -74,6 +74,18 @@ li{
 .student{
     display: none;
 }
+.buy{
+    display: block;
+    background: var(--black);
+    color: var(--link);
+    padding: 2em;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid var(--link);
+    box-shadow: 0 2px 5px rgba(0, 0, 0.1);
+    margin: 1em auto;
+}
 h4{
     font-family: monospace;
     font-size: 2em;
@@ -112,8 +124,8 @@ details::before{
     color: var(--black);
 }
 .aaron_scans{
-    background: orangered;
-    color: var(--white);
+    background: radial-gradient(gold, orange);
+    color: var(--black);
     padding: 1em;
     border:none;
     font-size: 1.1em;
@@ -190,10 +202,15 @@ details::before{
     flex-direction: column;
     align-items: center;
     margin: 1em auto;
-    background: seagreen;
+    background: radial-gradient(seagreen, lightgreen);
     padding: 1em;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0.1);
+}
+.repertoire a{
+    color: var(--black);
+    font-weight: bold;
+    text-decoration: underline;
 }
 .partition{
     display: flex;
